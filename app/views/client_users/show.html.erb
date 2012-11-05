@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Gender:</b>
+  <%= @client_user.gender %>
+</p>
+
+<p>
+  <b>Birthday:</b>
+  <%= @client_user.birthday %>
+</p>
+
+<p>
+  <b>Zipcode:</b>
+  <%= @client_user.zipcode %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @client_user.address %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @client_user.phone %>
+</p>
+
+
+<%= link_to 'Edit', edit_client_user_path(@client_user) %> |
+<%= link_to 'Back', client_users_path %>
